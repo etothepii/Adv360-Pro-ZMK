@@ -10,13 +10,13 @@ label = "macro_xl_sheet_left";
 #binding-cells = <0>;
 bindings = <&kt LCMD>, <&kp PG_UP>, <&kt LCMD>;
 };
-macro_tab_right: macro_next_tab{
+macro_next_tab: macro_next_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_next_tab";
 #binding-cells = <0>;
 bindings = <&kt LCMD>, <&kp RIGHT_BRACE>, <&kt LCMD>;
 };
-macro_xl_sheet_left: macro_prev_tab{
+macro_prev_tab: macro_prev_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_prev_tab";
 #binding-cells = <0>;
