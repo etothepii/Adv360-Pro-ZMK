@@ -2,13 +2,25 @@ macro_xl_sheet_right: macro_xl_sheet_right{
 compatible = "zmk,behavior-macro";
 label = "macro_xl_sheet_right";
 #binding-cells = <0>;
-bindings = <&kt LCMD>, <&kp PG_UP>, <&kt LCMD>;
+bindings = <&kt LCMD>, <&kp PG_DN>, <&kt LCMD>;
 };
 macro_xl_sheet_left: macro_xl_sheet_left{
 compatible = "zmk,behavior-macro";
 label = "macro_xl_sheet_left";
 #binding-cells = <0>;
-bindings = <&kt LCMD>, <&kp PG_DN>, <&kt LCMD>;
+bindings = <&kt LCMD>, <&kp PG_UP>, <&kt LCMD>;
+};
+macro_next_tab: macro_next_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_next_tab";
+#binding-cells = <0>;
+bindings = <&kt LCMD>, <&kp RIGHT_BRACE>, <&kt LCMD>;
+};
+macro_prev_tab: macro_prev_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_tab";
+#binding-cells = <0>;
+bindings = <&kt LCMD>, <&kp LEFT_BRACE>, <&kt LCMD>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";

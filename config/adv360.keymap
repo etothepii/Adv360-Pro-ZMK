@@ -62,7 +62,7 @@
             bindings = <
  &kp F1  &kp F2  &kp F3    &kp F4   &kp F5  &kp F6            &tog 1                                                   &mo 3                &kp F7     &kp F8     &kp F9                &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans    &trans   &trans  &trans             &none                                                   &none                &trans     &trans     &trans                 &trans   &trans   &trans
- &trans  &trans  &trans    &trans   &trans  &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none  &macro_xl_sheet_left     &trans     &trans  &macro_xl_sheet_right   &trans   &trans
+ &trans  &trans  &trans    &trans   &trans  &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none  &macro_xl_sheet_left     &macro_prev_tab     &macro_next_tab  &macro_xl_sheet_right   &trans   &trans
  &trans  &trans  &trans    &trans   &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none                &trans     &trans     &trans                 &trans   &trans   &trans
  &trans  &trans  &trans  &kp HOME  &kp END                    &trans  &trans  &trans                  &trans  &trans  &trans                        &kp PG_UP  &kp PG_DN                 &trans   &trans   &trans
             >;
